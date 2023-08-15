@@ -82,7 +82,7 @@ var searchBtn = document.querySelector('.search-btn');
          }
       }
   };
-  xhttp.open("GET", `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchItems.value}&maxResults=16&key=AIzaSyDyxb27eFNi0Mpp7fdmVXb3bny9aZ4dXUQ`
+  xhttp.open("GET", ``
   , true);
   xhttp.send();
 
